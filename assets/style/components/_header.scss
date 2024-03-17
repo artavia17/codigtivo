@@ -1,0 +1,42 @@
+header {
+
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-header{
+
+        transition: .1s linear;
+        background-color: $color_menu;
+        padding: 15px 20px;
+        width: 100%;
+
+        .column{
+            background-color: blue;
+            display: none;
+        }
+    
+        .logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+
+                display: grid;
+                place-items: center;
+
+                img{
+                    height: 35px;
+                    width: auto;
+                }
+
+            }
+
+        }
+
+    }
+
+}

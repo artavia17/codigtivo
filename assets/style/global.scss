@@ -1,0 +1,14 @@
+@import './vars';
+@import './components/header';
+
+*,
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body #__nuxt {
+    min-height: 300dvh;
+}
